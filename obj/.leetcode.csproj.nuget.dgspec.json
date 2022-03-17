@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JeroldLi\\.leetcode\\.leetcode.csproj": {}
+    "C:\\Users\\JeroldLi\\LeetCodeCN\\.leetcode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JeroldLi\\.leetcode\\.leetcode.csproj": {
+    "C:\\Users\\JeroldLi\\LeetCodeCN\\.leetcode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JeroldLi\\.leetcode\\.leetcode.csproj",
+        "projectUniqueName": "C:\\Users\\JeroldLi\\LeetCodeCN\\.leetcode.csproj",
         "projectName": ".leetcode",
-        "projectPath": "C:\\Users\\JeroldLi\\.leetcode\\.leetcode.csproj",
+        "projectPath": "C:\\Users\\JeroldLi\\LeetCodeCN\\.leetcode.csproj",
         "packagesPath": "C:\\Users\\JeroldLi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JeroldLi\\.leetcode\\obj\\",
+        "outputPath": "C:\\Users\\JeroldLi\\LeetCodeCN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\JeroldLi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -57,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

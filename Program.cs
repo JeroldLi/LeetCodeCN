@@ -8,7 +8,8 @@ namespace leetcode
             // Create a new Solution instance
             //Solution solution = new Solution();
             //int result = solution.MySqrt(1024);
-            //onsole.WriteLine($"output:{result}");
+            int result = 1;
+            Console.WriteLine($"output:{result}");
             // Print the answer
         }
     }
