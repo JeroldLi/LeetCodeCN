@@ -1,0 +1,15 @@
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.csproj.AssemblyReference.cache
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.AssemblyInfoInputs.cache
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.AssemblyInfo.cs
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.csproj.CoreCompileInputs.cache
+C:\Users\JeroldLi\.leetcode\bin\Debug\net6.0\.leetcode.exe
+C:\Users\JeroldLi\.leetcode\bin\Debug\net6.0\.leetcode.deps.json
+C:\Users\JeroldLi\.leetcode\bin\Debug\net6.0\.leetcode.runtimeconfig.json
+C:\Users\JeroldLi\.leetcode\bin\Debug\net6.0\.leetcode.dll
+C:\Users\JeroldLi\.leetcode\bin\Debug\net6.0\.leetcode.pdb
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.dll
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\refint\.leetcode.dll
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.pdb
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\.leetcode.genruntimeconfig.cache
+C:\Users\JeroldLi\.leetcode\obj\Debug\net6.0\ref\.leetcode.dll
