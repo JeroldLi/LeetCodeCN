@@ -1,0 +1,12 @@
+bin/Debug/net6.0/.leetcode.dll
+bin/Debug/net6.0/.leetcode.pdb
+obj/.leetcode.csproj.nuget.dgspec.json
+obj/.leetcode.csproj.nuget.g.props
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net6.0/.leetcode.assets.cache
+obj/Debug/net6.0/.leetcode.csproj.FileListAbsolute.txt
+obj/Debug/net6.0/.leetcode.dll
+obj/Debug/net6.0/.leetcode.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net6.0/.leetcode.genruntimeconfig.cache
+obj/Debug/net6.0/.leetcode.pdb
