@@ -21,7 +21,12 @@
 using leetcode;
 public class Problem104
 {
-    //深度优先
+    /*
+    解法一：深度优先
+    一棵树的深度等于其左右子树深度的最大值
+    左右子树又可以分别对自身的左右子树进行递归计算
+    子树为空时返回0 子树为空的叶子节点记为1
+    */
     public int function1(TreeNode root)
     {
         if (root == null)
@@ -38,7 +43,13 @@ public class Problem104
         }
     }
 
-    // 广度优先
+    /*
+    解法二：广度优先
+    依次遍历每一层节点，最后记下层数
+    进入队列后 队列的size记录当前这层有几个节点
+    每遍历一个节点要对size-1
+    每次遍历本层结束（size=0）要将层数+1
+    */
     public int function2(TreeNode root)
     {
         Queue<TreeNode> q = new Queue<TreeNode>();
@@ -74,10 +85,8 @@ public class Problem104
 
     public int MaxDepth(TreeNode root)
     {
-        {
-            return function1(root);
-            //return function2(root);
-        }
+        return function1(root);
+        //return function2(root);
     }
 }
 // @lc code=end

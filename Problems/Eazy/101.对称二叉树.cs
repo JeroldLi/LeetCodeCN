@@ -21,13 +21,17 @@
 using leetcode;
 public class Problem101 {
 
-    //递归
     public bool IsSymmetric(TreeNode root) {
         return function1(root, root);
         //return function2(root, root);
         //return CheckTreeNode(root, root);
     }
 
+    /*
+    解法一：递归
+    左右节点同时为空或值相等时->对称
+    左右节点不同时为空时->不对称
+    */
     public bool function1(TreeNode node1, TreeNode node2){
         if(node1 == null && node2 == null){
             return true;
@@ -41,7 +45,11 @@ public class Problem101 {
         && function1(node1.right, node2.left);
     }
 
-    //迭代
+    /*
+    解法二：迭代
+    利用队列先进先出的特性
+    同时将两个节点进队 同时作比较 同时出队
+    */
     public bool function2(TreeNode root1, TreeNode root2) {
         Queue<TreeNode> queue = new Queue<TreeNode>();
         queue.Enqueue(root1);

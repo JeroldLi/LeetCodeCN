@@ -18,10 +18,19 @@
  *     }
  * }
  */
+
+/*
+前序遍历：左、中、右
+中序遍历：中、左、右
+后序遍历：左、右、中
+层次遍历：按层次遍历
+ */
 using leetcode;
 public class Problem94
 {
-    //递归
+    /*
+    解法一：递归算法
+    */
     public IList<int> function1(TreeNode root)
     {
         List<int> result = new List<int>();
@@ -42,6 +51,12 @@ public class Problem94
         }
     }
 
+    /*
+    解法二：迭代算法
+    利用栈的后进先出特性
+    遇到左就进栈，左为空则退出至中节点
+    随后拐向右节点
+    */
     public IList<int> function2(TreeNode root)
     {
         List<int> result = new List<int>();
