@@ -5,11 +5,12 @@
  */
 
 // @lc code=start
+using leetcode;
 public class Problem88 {
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
-        //function1(nums1, m, nums2, n);
+        function1(nums1, m, nums2, n);
         //function2(nums1, m, nums2, n);
-        function3(nums1, m, nums2, n);
+        //function3(nums1, m, nums2, n);
     }
 
     /*
@@ -22,36 +23,9 @@ public class Problem88 {
         for(int i = 0; i < n; i++){
             nums1[m+i] = nums2[i];
         }
-        QuickSort(nums1, 0, m+n-1);
+        PublicFunction.QuickSort(nums1, 0, m+n-1);
         return nums1;
     }
-    public void QuickSort(int[] nums, int begin, int end){
-        if(begin >= end) return;
-        int pivotIndex = QuickSortOnce(nums, begin, end);
-
-        QuickSort(nums, begin, pivotIndex - 1);
-        QuickSort(nums, pivotIndex + 1, end);
-    }
-
-    public int QuickSortOnce(int[] nums, int begin, int end){
-        int pivot = nums[begin];
-        int i = begin;
-        int j = end;
-        while(i < j){
-            while(nums[j] >= pivot && i < j){
-                j--;
-            }
-            nums[i] = nums[j];
-
-            while(nums[i] <= pivot && i < j){
-                i++;
-            }
-            nums[j] = nums[i];
-        }
-        nums[i] = pivot;
-        return i;
-    }
-
     /*
     解法二：双指针
     两个变量保存数组的头元素，比较后将较小的保存至新数组
