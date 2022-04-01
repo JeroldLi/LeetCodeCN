@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem121 {
+public class Solution121 {
     /*
     解法一：暴力解
     遍历数组中每一个数，计算他们的差值，保存最大值

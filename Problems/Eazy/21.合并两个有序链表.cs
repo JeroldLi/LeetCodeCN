@@ -17,7 +17,7 @@
  * }
  */
 using leetcode;
-public class Problem21 {
+public class Solution21 {
 /*
 解法一：递归法
 两个链表分别新赋值两个链表游标节点

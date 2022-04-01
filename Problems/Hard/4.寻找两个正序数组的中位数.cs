@@ -6,7 +6,7 @@
 
 // @lc code=start
 using System;
-public class Problem4 {
+public class Solution4 {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
         return function1(nums1, nums2);
         //return function2(nums1, nums2);

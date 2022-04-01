@@ -19,7 +19,7 @@
  * }
  */
 using leetcode;
-public class Problem543 {
+public class Solution543 {
     public int DiameterOfBinaryTree(TreeNode root) {
         return function1(root);
     }

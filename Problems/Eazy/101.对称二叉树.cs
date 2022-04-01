@@ -19,7 +19,7 @@
  * }
  */
 using leetcode;
-public class Problem101 {
+public class Solution101 {
 
     public bool IsSymmetric(TreeNode root) {
         return function1(root, root);

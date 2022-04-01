@@ -6,7 +6,7 @@
 
 // @lc code=start
 using System.Text;
-public class Solution {
+public class Solution168 {
     public string ConvertToTitle(int columnNumber) {
         return function1(columnNumber);
     }

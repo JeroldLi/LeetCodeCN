@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem1 {
+public class Solution1 {
     public int[] TwoSum(int[] nums, int target) {
         return function1(nums, target);
         //return function2(nums, target);

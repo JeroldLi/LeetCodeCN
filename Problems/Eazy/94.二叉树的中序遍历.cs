@@ -26,7 +26,7 @@
 层次遍历：按层次遍历
  */
 using leetcode;
-public class Problem94
+public class Solution94
 {
     /*
     解法一：递归算法

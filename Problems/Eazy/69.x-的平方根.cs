@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem69
+public class Solution69
 {
     public int MySqrt(int x)
     {

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem118 {
+public class Solution118 {
     public IList<IList<int>> Generate(int numRows) {
         return function1(numRows);
     }

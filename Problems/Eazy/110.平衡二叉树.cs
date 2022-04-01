@@ -19,7 +19,7 @@
  * }
  */
 using leetcode;
-public class Problem110 {
+public class Solution110 {
     public bool IsBalanced(TreeNode root) {
         //return function1(root);
         return function2(root);

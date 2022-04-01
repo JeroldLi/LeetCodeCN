@@ -6,7 +6,7 @@
 
 // @lc code=start
 using leetcode;
-public class Problem88 {
+public class Solution88 {
     public void Merge(int[] nums1, int m, int[] nums2, int n) {
         function1(nums1, m, nums2, n);
         //function2(nums1, m, nums2, n);

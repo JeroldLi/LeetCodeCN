@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem557 {
+public class Solution557 {
     public string ReverseWords(string s) {
         return function1(s);
     }

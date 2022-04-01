@@ -6,7 +6,7 @@
 
 // @lc code=start
 using System.Collections;
-public class Problem20 {
+public class Solution20 {
 
 /*
 解法一：

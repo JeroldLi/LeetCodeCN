@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem171 {
+public class Solution171 {
     /*
     解法一：暴力法 高到低
     进制转换，从高位向低位（从左至右）计算其幂值和

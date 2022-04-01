@@ -19,7 +19,7 @@
 
 
 using leetcode;
-public class Problem2
+public class Solution2
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {

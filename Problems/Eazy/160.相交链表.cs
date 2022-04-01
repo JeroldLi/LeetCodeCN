@@ -14,7 +14,7 @@
  * }
  */
 using leetcode;
-public class Problem160 {
+public class Solution160 {
     public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {
         //return function1(headA, headB);
         return function2(headA, headB);

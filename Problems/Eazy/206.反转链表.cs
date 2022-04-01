@@ -17,7 +17,7 @@
  * }
  */
 using leetcode;
-public class Problem206 {
+public class Solution206 {
     public ListNode ReverseList(ListNode head) {
         //return function1(head);
         return function2(head);

@@ -17,7 +17,7 @@
  * }
  */
 using leetcode;
-public class Problem141 {
+public class Solution141 {
     public bool HasCycle(ListNode head) {
         return function1(head);
         //return function2(head);

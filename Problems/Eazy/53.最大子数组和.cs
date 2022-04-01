@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem53
+public class Solution53
 {
     /*
     解法一：动态规划法

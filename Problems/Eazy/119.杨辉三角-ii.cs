@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Problem119 {
+public class Solution119 {
     public IList<int> GetRow(int rowIndex) {
         //return function1(rowIndex);
         return function2(rowIndex);

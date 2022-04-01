@@ -19,7 +19,7 @@
  * }
  */
 using leetcode;
-public class Problem104
+public class Solution104
 {
     /*
     解法一：深度优先

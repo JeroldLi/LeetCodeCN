@@ -5,9 +5,9 @@
  */
 
 // @lc code=start
-public class Problem70
+public class Solution70
 {
-    //public class Problem70 {
+    //public class Solution70 {
     /*
     解法一：动态规划
     动态规划五部曲：

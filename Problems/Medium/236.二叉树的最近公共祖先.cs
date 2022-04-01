@@ -15,7 +15,7 @@
  * }
  */
 using leetcode;
-public class Problem236 {
+public class Solution236 {
     public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         return function1(root, p, q);
         //return function2(root, p, q);
