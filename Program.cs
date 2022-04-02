@@ -7,8 +7,10 @@ namespace leetcode
         static void Main(String[] args)
         {
             //Solution solution = new Solution();
-            //int[] nums = new int[] {1,2,3};
-            //solution.Permute(nums);
+            string s = "abcd";
+            string t = "cdef";
+            int maxCost = 3;
+            //solution.EqualSubstring(s, t, maxCost);
         }
     }
 }
